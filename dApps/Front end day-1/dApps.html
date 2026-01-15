@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avalanche dApp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+
+    <div class="glass-card">
+      <div class="header">
+        <div class="logo-area">
+          <span class="icon">❄️</span>
+          <h1>Avalanche dApp</h1>
+        </div>
+        <p class="subtitle">Web3 Integration Demo</p>
+      </div>
+
+      <div class="status-container">
+        <span id="status" class="status-badge disconnected">Not Connected</span>
+      </div>
+
+      <div class="wallet-info">
+        <div class="info-item">
+          <label>Network</label>
+          <span id="network">-</span>
+        </div>
+        
+        <div class="info-item">
+          <label>Balance</label>
+          <span class="balance-text"><span id="balance">0.00</span> <small>AVAX</small></span>
+        </div>
+
+        <div class="info-item full-width">
+          <label>Wallet Address</label>
+          <span id="address" class="address-text">0x...</span>
+        </div>
+      </div>
+
+      <div class="identity-box">
+        <div class="id-row">
+          <span class="id-label">NAMA</span>
+          <span class="id-value">Satrio Adjie Wicaksono</span>
+        </div>
+        <div class="id-row">
+          <span class="id-label">NIM</span>
+          <span class="id-value">231011400145</span>
+        </div>
+      </div>
+
+      <button id="connectBtn" class="primary-btn">
+        Connect Core Wallet
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
